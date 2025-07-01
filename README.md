@@ -81,25 +81,25 @@ OPENAI_API_KEY=your-key-here
 ## 📁 Project Structure
 
 financial-analyst-rag/
-│
-├── app.py                     # Main app entrypoint
-├── data/                      # Contains financial PDF files
+├── app.py                    # Main app entrypoint
+├── data/                     # Contains financial PDF files
 ├── embeddings/               # Embedding scripts and FAISS index
 │   ├── embed_store_faiss.py
-│   └── text_processor.py
-│
-├── rag/                       # RAG pipeline setup
+│   ├── text_processor.py
+│   ├── test_faiss_query.py
+│   └── test_text_processor.py
+├── rag/                      # RAG pipeline setup
 │   ├── rag_pipeline.py
 │   └── setup_rag.py
-│
-├── scraping/                  # Web scrapers (if needed)
+├── scraping/                 # Web scrapers (if needed)
 │   ├── earnings_scraper.py
+│   ├── news_scraper.py
 │   ├── sec_scraper.py
 │   └── utils.py
-│
-├── test_env.py                # Environment variable tester
-├── test_hf_pipeline.py        # Pipeline test script
-├── requirements.txt           # All dependencies
+├── test_env.py               # Environment variable tester
+├── test_hf_pipeline.py       # Pipeline test script
+├── requirements.txt          # All dependencies
+├── instruct.txt              # Instructions/prompts (optional)
 ├── .gitignore
 └── README.md
 
