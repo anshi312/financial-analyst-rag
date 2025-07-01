@@ -31,14 +31,14 @@ This project enables analysts and users to query financial data directly from em
 ```bash
 git clone https://github.com/anshi312/financial-analyst-rag.git
 cd financial-analyst-rag
-
+```
 2. **Create virtual environment**
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 3. **Prepare your PDFs**
 
 Place your financial PDF documents inside the data/ folder.
@@ -47,12 +47,12 @@ Place your financial PDF documents inside the data/ folder.
 
 ```bash
 python embeddings/embed_store_faiss.py
-
+```
 5. Run the application
 
 ```bash
 python app.py
-
+```		
 
 ⸻
 
