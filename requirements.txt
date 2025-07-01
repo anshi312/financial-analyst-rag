@@ -1,0 +1,16 @@
+beautifulsoup4
+selenium
+requests
+newspaper3k
+pdfplumber
+openai
+sentence-transformers
+faiss-cpu
+pinecone
+langchain
+crewai
+streamlit
+fastapi
+uvicorn
+transformers
+langchain-community

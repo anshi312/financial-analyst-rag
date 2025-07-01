@@ -1,0 +1,9 @@
+# .gitignore
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+embeddings/faiss_index/
+.env
+config/.env
