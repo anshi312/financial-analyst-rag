@@ -12,6 +12,14 @@ This project enables analysts and users to query financial data from embedded co
 
 ---
 
+## Architecture
+
+<p align="center">
+  <img src="docs/arch-diagram" width="400" alt="Architecture">
+</p>
+
+---
+
 ## Features
 
 - **PDF ingestion**: Supports uploading and embedding financial documents in PDF format
