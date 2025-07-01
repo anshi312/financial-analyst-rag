@@ -32,27 +32,31 @@ This project enables analysts and users to query financial data directly from em
 git clone https://github.com/anshi312/financial-analyst-rag.git
 cd financial-analyst-rag
 
-	2.	Create virtual environment
+2. **Create virtual environment**
 
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-	3.	Prepare your PDFs
+3. **Prepare your PDFs**
 
 Place your financial PDF documents inside the data/ folder.
-	4.	Embed the documents
 
+4. **Embed the documents**
+
+```bash
 python embeddings/embed_store_faiss.py
 
-	5.	Run the application
+5. Run the application
 
+```bash
 python app.py
 
 
 ⸻
 
-🧠 Technologies Used
+## 🧠 Technologies Used
 	•	Python 3.10+
 	•	LangChain
 	•	FAISS
@@ -62,7 +66,7 @@ python app.py
 
 ⸻
 
-🛡️ Security Notes
+## 🛡️ Security Notes
 	•	API secrets are ignored via .gitignore
 	•	You can store your OpenAI API key in config/.env (optional)
 
@@ -74,7 +78,7 @@ OPENAI_API_KEY=your-key-here
 
 ⸻
 
-📁 Project Structure
+## 📁 Project Structure
 
 financial-analyst-rag/
 ├── app.py
@@ -92,27 +96,25 @@ financial-analyst-rag/
 
 ⸻
 
-💡 Example Use Cases
+## 💡 Example Use Cases
 	•	“What was Netflix’s total revenue in 2024?”
 	•	“Apple’s net income breakdown by product?”
 	•	“Compare Microsoft and Apple’s R&D spending.”
 
 ⸻
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ⸻
 
-🙋‍♀️ Author
+## 🙋‍♀️ Author
 
 Anshi Shah
 📧 ans10020@nyu.edu
 🔗 LinkedIn
 🎓 MS in Computer Engineering @ NYU Tandon
 💡 Passionate about AI, MLOps, and Financial Automation
-
-Let me know if you'd like badges (build status, license, etc.) or a project demo GIF added.
 
 
